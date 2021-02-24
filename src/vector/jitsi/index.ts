@@ -218,7 +218,12 @@ function joinConference() { // event handler bound in HTML
         interfaceConfigOverwrite: {
             SHOW_JITSI_WATERMARK: false,
             SHOW_WATERMARK_FOR_GUESTS: false,
-            MAIN_TOOLBAR_BUTTONS: [],
+            MAIN_TOOLBAR_BUTTONS: [
+        'microphone', 'camera', 'closedcaptions', 'desktop', 'embedmeeting', 'fullscreen',
+        'fodeviceselection', 'hangup', 'profile', 'chat', 'recording',
+        'livestreaming', 'etherpad', 'sharedvideo', 'settings', 'raisehand',
+        'videoquality', 'filmstrip', 'invite', 'feedback', 'stats', 'shortcuts',
+        'tileview', 'videobackgroundblur', 'download', 'help', 'mute-everyone', 'security'],
             VIDEO_LAYOUT_FIT: "height",
         },
         jwt: jwt,
